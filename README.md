@@ -17,4 +17,5 @@ A test API to demonstrate the use of RAML in creating an API spec
   * By doing this you would instantly have the capability to list all Orders, or list specific orders as you currently can with Customers.
   
 4. Commentary on any 'interesting' design decisions you made (and alternative options considered)
-TODO
+  * The ability to group similar objects using a 'collection' effectively makes the api self documenting, you can add a new type such as an order, add it to the collection resourceType and all the response and request traits are inherited and can be overrided if necessary.
+  * Didn't implement authentication directly in the mule flow as the intention was that API manager would implement authentication outside as a policy on the gateway. Alternative would have been to add a spring-security element on the flow itself.
