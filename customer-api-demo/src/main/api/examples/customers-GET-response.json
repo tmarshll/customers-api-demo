@@ -1,0 +1,16 @@
+{
+   "customers": [{
+        "id": "1234",
+        "firstName": "Thomas",
+        "lastName": "Marshall",
+             "addresses": [ {
+                  "street": "fake street",
+                  "city": "fake suburb",
+                  "state": "fake state",
+                  "postcode": "2312",
+                  "country": "Australia",
+                  "dpid":"1234"
+              } ]
+        }
+    ]
+}
